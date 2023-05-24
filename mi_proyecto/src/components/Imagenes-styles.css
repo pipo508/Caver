@@ -1,7 +1,15 @@
 .img_1 {
-    width: 500px; /* Cambia el valor según el tamaño deseado */
-    height: 500px; /* Cambia el valor según el tamaño deseado */
+    width: 450px; /* Cambia el valor según el tamaño deseado */
+    height:  450px; /* Cambia el valor según el tamaño deseado */
     padding: 15px;
     justify-content: center;
   }
-  
+.background{
+  background-color:rgb(229, 204, 14);
+  padding: 5px;
+}
+h1{
+  color: darkgoldenrod;
+  font-size: 20px;
+  justify-items: center;
+}

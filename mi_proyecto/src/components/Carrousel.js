@@ -8,27 +8,44 @@ import NEGRA from "./images/Negra.png"
 import "./Carrousel-styles.css"
 export const Carrousel = () => {
     return(
-      <div id="carouselExample" class="carousel slide backroud">
-  <div class="carousel-inner black-background ">
-    <div class="carousel-item active ">
-      <img class="carousel-image zoom" src={RUBIA} alt="hola"/>
+      <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner background-carousel">
+    <div class="carousel-item active">
+      <div class="inline-content">
+        <h1 class="underline-on-hover"><a href="#rubias">Cervezas RUBIAS</a></h1>
+        <img class="carousel-image zoom" src={RUBIA} alt="hola"/> 
+      </div>
     </div>
     <div class="carousel-item">
-      <img class="carousel-image zoom" src={ROJA} alt="..."/>
+      <div class="inline-content">
+        <h1 class="underline-on-hover"><a href="#rojas">Cervezas Rojas</a></h1>
+        <img class="carousel-image zoom" src={ROJA} alt="..."/>
+      </div>
     </div>
     <div class="carousel-item">
-      <img class="carousel-image zoom" src={IPA} alt="..."/>
+      <div class="inline-content">
+        <h1 class="underline-on-hover"><a href="#ipas">Cervezas IPAS</a></h1>
+        <img class="carousel-image zoom" src={IPA} alt="..."/>
+      </div>
     </div>
     <div class="carousel-item">
-      <img class="carousel-image zoom" src={VINO} alt="..."/>
+      <div class="inline-content">
+        <h1 class="underline-on-hover"><a href="#vinos">VINOS</a></h1>
+        <img class="carousel-image zoom" src={VINO} alt="..."/>
+      </div>
     </div>
     <div class="carousel-item">
-      <img class="carousel-image zoom" src={NEGRA} alt="..."/>
+      <div class="inline-content">
+        <h1 class="underline-on-hover"><a href="#negras">Cervezas NEGRAS</a></h1>
+        <img class="carousel-image zoom" src={NEGRA} alt="..."/>
+      </div>
     </div>
     <div class="carousel-item">
-      <img class="carousel-image zoom" src={APA} alt="..."/>
-    </div> 
-    
+      <div class="inline-content">
+        <h1 class="underline-on-hover"><a href="#apas">Cervezas APAS</a></h1>
+        <img class="carousel-image zoom" src={APA} alt="..."/>
+      </div> 
+    </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -39,7 +56,6 @@ export const Carrousel = () => {
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
 
 
 

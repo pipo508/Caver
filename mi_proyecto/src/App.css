@@ -1,7 +1,7 @@
 hr {
-  height: 50px;
-  border: none;
-  background-color: rgb(255, 201, 5);
+  background-color: rgb(255, 181, 34);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .background{
   background-color: black;
