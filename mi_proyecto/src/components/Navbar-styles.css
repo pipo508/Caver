@@ -19,8 +19,8 @@
     margin-right: 20px;
 }
 .logo {
-    max-width: 110px;
-    max-height: 110px;
+    max-width: 150px;
+    max-height: 150px;
 
 }
 .nav-backround {
@@ -32,5 +32,5 @@ background-size: cover;
     color: rgb(223, 164, 0);
 }
 .brands{
-    font-size: 65px;
+    font-size: 95px;
 }

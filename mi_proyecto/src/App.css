@@ -1,8 +1,5 @@
-hr {
-  background-color: rgb(255, 181, 34);
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 .background{
-  background-color: black;
+  background-image: url("./components/images/depositphotos_37524563-stock-photo-black-background-or-luxury-gray.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
